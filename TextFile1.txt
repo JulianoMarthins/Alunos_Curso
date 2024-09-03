@@ -1,0 +1,48 @@
+﻿	Em um portal de cursos online, cada usuário possui um código único, representado por um número inteiro.
+
+	Cada instrutor do portal pode ter vários cursos, sendo que um mesmo aluno pode se matricular em quantos cursos
+quiser. Assim, o número total de alunos de um instrutor não é simplesmente a soma dos alunos de todos os curso que
+possui, pois pode haver alunos repetidos em mais de um curso.
+
+	O instrutor Nélio Alves possui três cursos, e deseja saber qual seu número total de alunos.
+
+	Seu programa deve ler os alunos dos cursos do instrotor e depois, mostrar na tela a quantidade total de alunos que
+tem, conforme exemplo.
+
+
+										Exemplo:
+
+
+Quantos estudantes tem no curso A: 
+<3>
+
+Digite a Id dos alunos cadastrados no curso A:
+<21>
+<35>
+<22>
+
+
+Quantos estudantes tem no curso B: 
+<2>
+
+Digite a Id dos alunos cadastrados no curso B:
+<21>
+<50>
+
+
+Quantos estudantes tem no curso C: 
+<3>
+
+Digite a Id dos alunos cadastrados no curso C:
+<42>
+<35>
+<13>
+
+
+retorno ao usuario:
+
+Total de estudantes: 06
+
+O professor tem um total de 8 alunos nos seus cursos porém, o aluno de ID 21 realiza os cursos A e B, 
+enquanto isso o aluno de ID 35 realiza os cursos B e C, sendo assim, o total de alunos diferentes nos
+três cursos ministrados pelo professo Nélio Alves são 6.
